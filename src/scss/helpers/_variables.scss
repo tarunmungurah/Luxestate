@@ -1,7 +1,9 @@
 $colors: (
   white: #ffffff,
   black: #000000,
-  red: #ff0000
+  red: #ff0000,
+  te_papa_green: #1F373D,
+  rolling_stone: #757F82
 );
 
 $size: ( 
@@ -26,5 +28,9 @@ $textarea-btn-radius: map-get($size, textarea-btn-radius);
 $white: map-get($colors, white);
 $black: map-get($colors, black);
 $red: map-get($colors, red);
+$te_papa_green: map-get($colors, te_papa_green);
+$rolling_stone: map-get($colors, rolling_stone);
+
+
 
 $regular: map-get($font-weight, regular);
