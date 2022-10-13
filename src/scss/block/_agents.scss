@@ -1,0 +1,47 @@
+.agents {
+    padding: 70px 0 96px 0;
+    background-color: $desert_storm;
+
+    &__title {
+        font-size: 40px;
+        margin-left: 108px;
+        margin-bottom: 48px;
+        color: $te_papa_green;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+    &__subtitle {
+        font-size: 13px;
+        margin-left: 108px;
+        margin-bottom: 68px;
+        color: $te_papa_green;
+    }
+}
+
+.card {
+    background-color: $white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.23);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.23);
+
+    //mobile   margin-bottom: 50px;
+    &__type {
+        color: $te_papa_green;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 0 0 25px 21px;
+    }
+
+    &__name {
+        color: $supernova;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 0 0 30px 21px;
+    }
+
+    .card-img-top {
+        height: 380px;
+        margin-bottom: 24px;
+    }
+}

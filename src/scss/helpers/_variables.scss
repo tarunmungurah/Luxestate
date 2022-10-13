@@ -3,6 +3,8 @@ $colors: (
   black: #000000,
   red: #ff0000,
   te_papa_green: #1F373D,
+  desert_storm:#F6F5F4,
+  supernova: #ffcc01
 );
 
 $size: ( 
@@ -28,8 +30,7 @@ $white: map-get($colors, white);
 $black: map-get($colors, black);
 $red: map-get($colors, red);
 $te_papa_green: map-get($colors, te_papa_green);
-$rolling_stone: map-get($colors, rolling_stone);
-
-
+$desert_storm: map-get($colors, desert_storm);
+$supernova: map-get($colors, supernova);
 
 $regular: map-get($font-weight, regular);
