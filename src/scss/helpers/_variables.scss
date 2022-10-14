@@ -4,7 +4,8 @@ $colors: (
   red: #ff0000,
   te_papa_green: #1F373D,
   desert_storm:#F6F5F4,
-  supernova: #ffcc01
+  supernova: #ffcc01,
+  bali_hai: #919eb1
 );
 
 $size: ( 
@@ -32,5 +33,7 @@ $red: map-get($colors, red);
 $te_papa_green: map-get($colors, te_papa_green);
 $desert_storm: map-get($colors, desert_storm);
 $supernova: map-get($colors, supernova);
+$bali_hai: map-get($colors, bali_hai);
+
 
 $regular: map-get($font-weight, regular);
