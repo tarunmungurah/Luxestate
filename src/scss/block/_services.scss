@@ -1,10 +1,8 @@
 .services {
-
-padding: 100px 0 71px 0;
+    padding: 100px 0 71px 0;
 
     &__title {
         font-size: 40px;
-        margin-left: 108px;
         margin-bottom: 38px;
         color: $te_papa_green;
         font-weight: bold;
@@ -13,7 +11,6 @@ padding: 100px 0 71px 0;
 
     &__subtitle {
         font-size: 13px;
-        margin-left: 108px;
         margin-bottom: 68px;
         color: $te_papa_green;
     }
