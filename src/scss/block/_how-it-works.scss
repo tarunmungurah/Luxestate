@@ -16,10 +16,21 @@
     }
 }
 
-.hiw-card {
-    //mobile   margin-bottom: 50px;
-    color: $supernova;
-    height: 373px;
-    width: 373px;
+.how-it-works-card01 {
+    background-color: $supernova;
+    height: 372px;
 
+    &__title{
+        color: $white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    &__subtitle{
+        color: $white;
+        font-size: 13px;
+        max-width: 207px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
