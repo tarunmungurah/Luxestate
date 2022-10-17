@@ -1,0 +1,130 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    background-color: $white;
+}
+
+.sticky {
+    background: $black;
+    padding: 20px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //   font-family: $Open-sans;
+    background-color: $white;
+    font-size: 13px;
+}
+
+.menu {
+    display: none;
+
+    .sticky & {
+        margin-top: 0;
+    }
+
+    @include media-breakpoint-up(lg) {
+        display: flex;
+        margin-top: 42px;
+        margin-bottom: 42px;
+
+        .active,
+        a:hover {
+            background-color: $supernova;
+            transition: .5s;
+        }
+    }
+
+    li {
+        display: inline-block;
+
+        a {
+            display: flex;
+            font-size: 13px;
+            text-decoration: none;
+            align-items: center;
+            color: $te_papa_green;
+            margin-right: 4px;
+            margin-left: 4px;
+            padding: 10px 15px;
+            border-radius: 10px;
+
+            .leftspace & {
+                margin-left: 100px;
+            }
+        }
+    }
+
+    .showing & {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: $white;
+        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+
+        a:hover {
+            background-color: $supernova;
+            transition: .5s;
+            border-radius: 10px;
+        }
+    }
+}
+
+.menu li a.leftspace {
+    margin: 0;
+    @include media-breakpoint-up(lg) {
+        margin-left: 100px;
+    }
+}
+
+.logo {
+    flex-shrink: 0;
+
+    // margin-top: 50px;
+    @include media-breakpoint-up(lg) {
+        margin-top: 42px;
+        margin-bottom: 42px;
+    }
+
+    .sticky & {
+        margin-top: 0;
+    }
+
+    &__img {
+        width: 123px;
+        height: 40px;
+    }
+}
+
+.fas {
+    display: none;
+    color: $supernova;
+    margin-top: 10px;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: $supernova;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+
+.burger-menu {
+    position: relative;
+    z-index: 2;
+
+    @include media-breakpoint-up(lg) {
+        display: none;
+    }
+}
