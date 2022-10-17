@@ -1,11 +1,21 @@
-.btn.btn-appartments {
+.btn {
     font-size: 15px;
-    background-color: $white;
     color: $te_papa_green;
+    border-radius: 8px;
+}
 
-    border-radius: 10px;
-    width: 260px;
-    height: 75px;
+.btn-appartments {
+    background-color: $white;
+    padding: 29px 39px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.10);
+}
+
+.btn-search {
+    font-weight: bold;
+    background-color: $supernova;
+    padding: 29px 30px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.10);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.10);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.10);

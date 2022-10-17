@@ -1,3 +1,76 @@
-.footer {
+.footers {
+    background: $te_papa_green;
+    padding: 72px 0 88px 0;
 
+    &__explore {
+        line-height: 1;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 59px;
+        color: $white;
+    }
+
+    &__logo {
+        // width: 137px;
+        // height: 43px;
+        color: $white;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 70px;
+    }
+
+    &__info {
+        color: $white;
+        font-size: 14px;
+    }
+    &__title{
+        color: $bali_hai;
+        font-size: 13px;
+        margin-bottom: 45px;
+        text-transform: uppercase;
+    }
+
+    &__contact {
+        color: $white;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    &__address {
+      //  color: $corduroy;
+        font-size: 14px;
+        margin-bottom: 38px;
+    }
+
+    &__number {
+     //   color: $corduroy;
+        font-size: 14px;
+    }
+
+    &__email {
+        color: $blue;
+        font-size: 14px;
+    }
+}
+
+
+.footers {
+    li {
+        margin-bottom: 26px;
+
+        a {
+            color: $white;
+            font-size: 13px;
+            text-decoration: none;
+        }
+    }
+}
+
+.form-control-footer {
+    font-size: 15px;
+    color: $bali_hai;
+    width: 477px;
+    height: 71px;
+    border-radius: 10px;
+    padding: 28px 0 28px 20px;
 }
