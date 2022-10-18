@@ -22,13 +22,13 @@ padding: 167px 0 119px 0;
     }
 }
 
-.top, .bot {
+.top, .bottom {
     height: 50%;
     border: 1px solid black;
     box-sizing: border-box;
 }
 
-.left, .right {
+.top-left, .top-right, .bottom-left, .bottom-right {
     display: inline-block;
     width: 50%;
     height: 100%;
