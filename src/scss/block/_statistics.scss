@@ -1,38 +1,108 @@
 .statistics {
 
-padding: 167px 0 119px 0;
+    padding: 167px 0 119px 0;
+
     &__title {
+        font-family: $Montserrat-Semibold;
         line-height: 1;
         font-size: 40px;
-        font-weight: bold;
+        max-width: 470px;
         margin-bottom: 71px;
         color: $te_papa_green;
     }
 
     &__subtitle1 {
+        font-family: $Montserrat;
         font-size: 13px;
         margin-bottom: 51px;
-        max-width: 520px;
+        max-width: 570px;
         color: $te_papa_green;
     }
+
     &__subtitle2 {
         font-size: 13px;
-        max-width: 530px;
+        max-width: 570px;
         color: $te_papa_green;
     }
 }
 
-.top, .bottom {
+.top,
+.bottom {
     height: 50%;
-    border: 1px solid black;
-    box-sizing: border-box;
 }
 
-.top-left, .top-right, .bottom-left, .bottom-right {
+.top-left,
+.top-right,
+.bottom-left,
+.bottom-right {
     display: inline-block;
     width: 50%;
     height: 100%;
     margin-right: -4px;
-    border: 1px solid red;
-    box-sizing: border-box;
+}
+.top{
+   padding-top: 44px;
+}
+.bottom{
+    padding-top: 88px;
+ }
+.top-left{
+    &__number{
+        font-family: $Montserrat-Semibold;
+        color: $supernova;
+        font-size: 40px;
+        line-height: 1;
+        margin-bottom: 22px;
+    }
+    &__text{
+        font-family: $Montserrat-Semibold;
+        color: $te_papa_green;
+        font-size: 14px;
+    }
+}
+
+.top-right{
+    &__number{
+        font-family: $Montserrat-Semibold;
+        color: $supernova;
+
+        font-size: 40px;
+        line-height: 1;
+        margin-bottom: 22px;
+    }
+    &__text{
+        font-family: $Montserrat-Semibold;
+        color: $te_papa_green;
+        font-size: 14px;
+    }
+}
+
+.bottom-left{
+    &__number{
+        font-family: $Montserrat-Semibold;
+        color: $supernova;
+        font-size: 40px;
+        line-height: 1;
+
+    }
+    &__text{
+        font-family: $Montserrat-Semibold;
+        color: $te_papa_green;
+        font-size: 14px;
+    }
+}
+
+.bottom-right{
+    &__number{
+        font-family: $Montserrat-Semibold;
+        color: $supernova;
+        font-size: 40px;
+        line-height: 1;
+       
+    }
+    &__text{
+        font-family: $Montserrat-Semibold;
+        color: $te_papa_green;
+        font-size: 14px;
+    }
 }
