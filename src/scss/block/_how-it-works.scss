@@ -2,10 +2,10 @@
     padding-top: 66px;
 
     &__title {
+        font-family: $Montserrat-Semibold;
         font-size: 40px;
         margin-bottom: 48px;
         color: $te_papa_green;
-        font-weight: bold;
         line-height: 1;
     }
 
@@ -23,29 +23,82 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
 
-    &__title{
-        color: $white;
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 41px;
-    }
 
-    &__subtitle{
+    &__subtitle {
         color: $white;
         font-size: 13px;
         max-width: 207px;
         text-align: left;
         margin-left: 110px;
-       
         margin-bottom: 31px;
     }
-    &__find-location{
+
+    &__find-location {
+        font-family: $Montserrat-Semibold;
         color: $white;
         font-size: 13px;
         text-decoration: underline;
         margin-left: 110px;
     }
 }
+
+.how-it-works-card01-title {
+    display: flex;
+
+    &__number {
+        font-family: $Montserrat-Semibold;
+        color: $white;
+        font-size: 18px;
+        margin-right: 12px;
+        margin-left: 80px;
+    }
+
+    &__text {
+        font-family: $Montserrat-Semibold;
+        color: $white;
+        font-size: 18px;
+        margin-bottom: 41px;
+    }
+}
+
+.how-it-works-card02-title {
+    display: flex;
+
+    &__number {
+        font-family: $Montserrat-Semibold;
+        color: $te_papa_green;
+        font-size: 18px;
+        margin-right: 12px;
+        margin-left: 80px;
+    }
+
+    &__text {
+        font-family: $Montserrat-Semibold;
+        color: $te_papa_green;
+        font-size: 18px;
+        margin-bottom: 41px;
+    }
+}
+
+.how-it-works-card03-title {
+    display: flex;
+
+    &__number {
+        font-family: $Montserrat-Semibold;
+        color: $te_papa_green;
+        font-size: 18px;
+        margin-right: 12px;
+        margin-left: 80px;
+    }
+
+    &__text {
+        font-family: $Montserrat-Semibold;
+        color: $te_papa_green;
+        font-size: 18px;
+        margin-bottom: 41px;
+    }
+}
+
 .how-it-works-card02 {
     background-color: $white;
     height: 372px;
@@ -53,15 +106,7 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
 
-    &__title{
-        color: $te_papa_green;
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 41px;
-    }
-    
-
-    &__subtitle{
+    &__subtitle {
         color: $te_papa_green;
         font-size: 13px;
         max-width: 207px;
@@ -70,13 +115,16 @@
         margin-right: auto;
         margin-bottom: 31px;
     }
-    &__find-appartment{
+
+    &__find-appartment {
+        font-family: $Montserrat-Semibold;
         color: $te_papa_green;
         font-size: 13px;
         text-decoration: underline;
         margin-left: 110px;
     }
 }
+
 .how-it-works-card03 {
     background-color: $white;
     height: 372px;
@@ -84,15 +132,7 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
 
-    &__title{
-        color: $te_papa_green;
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 41px;
-    
-    }
-
-    &__subtitle{
+    &__subtitle {
         color: $te_papa_green;
         font-size: 13px;
         max-width: 207px;
@@ -101,12 +141,12 @@
         margin-right: auto;
         margin-bottom: 31px;
     }
-    &__make-contact{
+
+    &__make-contact {
+        font-family: $Montserrat-Semibold;
         color: $te_papa_green;
         font-size: 13px;
         text-decoration: underline;
         margin-left: 110px;
     }
 }
-
-
