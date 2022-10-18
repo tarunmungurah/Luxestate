@@ -20,3 +20,37 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.10);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.10);
 }
+
+.btn-show {
+    font-size: 18px;
+    color: $white;
+    font-weight: bold;
+    border-radius: 0;
+    background-color: $te_papa_green;
+    padding: 34px 57px;
+    margin-left: 124px;
+}
+
+.btn-melbourne {
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0;
+    background-color: $supernova;
+    padding: 34px 57px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(50%, 375%);
+}
+
+.btn-melbourne2 {
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0;
+    background-color: $supernova;
+    padding: 34px 57px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(110%, 375%);
+}

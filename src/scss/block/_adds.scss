@@ -2,8 +2,19 @@
     padding: 89px 0 104px 0;
 
     picture {
-        margin-bottom: 50px;
+        margin-bottom: 93px;
     }
+
+    &__section {
+        position: relative;
+        width: 100%;
+    }
+}
+
+.fa.fa-map-marker {
+    font-size: 20px;
+    color: $white;
+    margin-right: 29px;
 }
 
 .adds-text {
@@ -22,5 +33,6 @@
         font-size: 13px;
         color: $te_papa_green;
         max-width: 420px;
+        margin-bottom: 44px;
     }
 }

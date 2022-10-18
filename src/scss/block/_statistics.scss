@@ -1,0 +1,38 @@
+.statistics {
+
+padding: 167px 0 119px 0;
+    &__title {
+        line-height: 1;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 71px;
+        color: $te_papa_green;
+    }
+
+    &__subtitle1 {
+        font-size: 13px;
+        margin-bottom: 51px;
+        max-width: 520px;
+        color: $te_papa_green;
+    }
+    &__subtitle2 {
+        font-size: 13px;
+        max-width: 530px;
+        color: $te_papa_green;
+    }
+}
+
+.top, .bot {
+    height: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.left, .right {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin-right: -4px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
