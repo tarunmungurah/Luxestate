@@ -1,9 +1,9 @@
 .banner {
     overflow: hidden;
     position: relative;
-    margin-top: 140px;
+    margin-top: 50px;
     @include media-breakpoint-up(lg) {
-        margin-top: 130px;
+        margin-top: 140px;
         padding-top: 153px;
     }
 
@@ -32,9 +32,13 @@
         &__title {
             font-family: $Montserrat-Semibold;
             line-height: 1;
-            font-size: 60px;
+            font-size: 35px;
             color: $te_papa_green;
             margin-bottom: 60px;
+            @include media-breakpoint-up(lg) {
+                font-size: 60px;
+            }
+        
         }
 
         .form-control {
@@ -43,10 +47,13 @@
             box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.20);
             font-size: 15px;
             color: $bali_hai;
-            width: 372px;
-            height: 71px;
+            width: 100%;
             border-radius: 10px;
             padding: 28px 0 28px 29px;
+            @include media-breakpoint-up(lg) {
+                width: 372px;
+                height: 71px;
+            }
         }
 
         &__form-item {

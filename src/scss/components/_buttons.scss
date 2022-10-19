@@ -15,10 +15,15 @@
 .btn-search {
     font-weight: bold;
     background-color: $supernova;
-    padding: 29px 30px;
+    padding: 10px 30px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.10);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.10);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.10);
+
+    
+    @include media-breakpoint-up(lg) {
+        padding: 29px 30px;
+    }
 }
 
 .btn-show {
@@ -45,10 +50,6 @@
     position: absolute;
     bottom: 0;
     left: 0;
-
-    // @include media-breakpoint-up(lg) {
-    //    
-    // }
   
 }
 
@@ -69,10 +70,13 @@
     font-weight: bold;
     border-radius: 0;
     background-color: $supernova;
-    padding: 34px 57px;
+    padding: 0;
     position: absolute;
     bottom: 0;
     right: 0;
     
+    @include media-breakpoint-up(lg) {
+        padding: 34px 57px;
+    }
 }
 

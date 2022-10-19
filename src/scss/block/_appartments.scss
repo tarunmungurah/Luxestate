@@ -7,6 +7,7 @@
         color: $te_papa_green;
         font-weight: bold;
         line-height: 1;
+        max-width: 470px;
     }
 }
 
@@ -81,12 +82,12 @@
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.20);
     font-size: 15px;
     color: $bali_hai;
-    width: 372px;
-    height: 71px;
+    width: 100%;
     border-radius: 10px;
     padding: 28px 0 28px 29px;
-   // margin-bottom: 16px;
- //  border: 1px solid black;
+
+    @include media-breakpoint-up(lg) {
+        width: 372px;
+        height: 71px;
+    }
 }
-
-

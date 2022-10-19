@@ -1,5 +1,9 @@
 .statistics {
-    padding: 167px 0 119px 0;
+    padding: 100px 0 75px;
+
+    @include media-breakpoint-up(lg) {
+        padding: 167px 0 119px 0;
+    }
 
     &__title {
         font-family: $Montserrat-Semibold;
