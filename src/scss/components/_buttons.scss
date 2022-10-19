@@ -28,7 +28,11 @@
     border-radius: 0;
     background-color: $te_papa_green;
     padding: 34px 57px;
-    margin-left: 124px;
+    margin: 0;
+
+    @include media-breakpoint-up(lg) {
+        margin-left: 124px;
+    }
 }
 
 .btn-melbourne {
@@ -37,10 +41,15 @@
     border-radius: 0;
     background-color: $supernova;
     padding: 34px 57px;
+
     position: absolute;
-    top: 0%;
-    left: 0%;
-    transform: translate(50%, 375%);
+    bottom: 0;
+    left: 0;
+
+    // @include media-breakpoint-up(lg) {
+    //    
+    // }
+  
 }
 
 .btn-melbourne2 {
@@ -50,7 +59,7 @@
     background-color: $supernova;
     padding: 34px 57px;
     position: absolute;
-    top: 0%;
-    left: 0%;
-    transform: translate(110%, 375%);
+    bottom: 0;
+    right: 0;
+    
 }

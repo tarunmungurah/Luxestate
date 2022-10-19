@@ -2,6 +2,7 @@
     padding: 89px 0 104px 0;
 
     picture {
+        position: relative;
         margin-bottom: 93px;
     }
 
@@ -43,8 +44,9 @@
 .adds-text2 {
     text-align: right;
     padding: 0;
+
     @include media-breakpoint-up(lg) {
-    padding: 83px 124px 0 0;
+        padding: 83px 124px 0 0;
     }
 
     &__title {
@@ -58,7 +60,7 @@
     &__subtitle {
         font-size: 13px;
         color: $te_papa_green;
-      //  max-width: 420px;
+        max-width: 498px;
         margin-bottom: 44px;
     }
 }
