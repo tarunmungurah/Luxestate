@@ -1,10 +1,10 @@
 .banner {
     overflow: hidden;
     position: relative;
-
+    margin-top: 140px;
     @include media-breakpoint-up(lg) {
         margin-top: 130px;
-        padding: 167px 0 223px 0;
+        padding-top: 153px;
     }
 
     picture {
@@ -23,18 +23,14 @@
         flex-direction: column;
 
         &__title {
+            font-family: $Montserrat-Semibold;
             line-height: 1;
-            font-size: 62px;
+            font-size: 60px;
             color: $te_papa_green;
-            font-weight: bold;
-            margin-bottom: 61px;
-            // @include media-breakpoint-up(lg) {
-            //     font-size: 72px;
-            //     margin-bottom: 35px;
-            // }
+            margin-bottom: 60px;
         }
 
-        &__form-control {
+        .form-control {
             -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.20);
             -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.20);
             box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.20);
@@ -44,8 +40,16 @@
             height: 71px;
             border-radius: 10px;
             padding: 28px 0 28px 29px;
-            // margin-bottom: 16px;
-            //  border: 1px solid black;
+        }
+
+        &__form-item {
+            margin-bottom: 107px;
+        }
+
+        &__scroll {
+            font-size: 12px;
+            font-weight: $Montserrat-Medium;
+            color: $bali_hai;
         }
     }
 }
