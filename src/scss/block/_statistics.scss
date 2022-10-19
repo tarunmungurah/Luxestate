@@ -1,5 +1,4 @@
 .statistics {
-
     padding: 167px 0 119px 0;
 
     &__title {
@@ -7,22 +6,35 @@
         line-height: 1;
         font-size: 40px;
         max-width: 470px;
-        margin-bottom: 71px;
+        margin-bottom: 45px;
         color: $te_papa_green;
+
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 71px;
+        }
     }
 
     &__subtitle1 {
         font-family: $Montserrat;
         font-size: 13px;
-        margin-bottom: 51px;
+        margin-bottom: 40px;
         max-width: 570px;
         color: $te_papa_green;
+
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 51px;
+        }
     }
 
     &__subtitle2 {
         font-size: 13px;
         max-width: 570px;
         color: $te_papa_green;
+        margin-bottom: 40px;
+
+        @include media-breakpoint-up(lg) {
+            margin: 0;
+        }
     }
 }
 
@@ -40,67 +52,71 @@
     height: 100%;
     margin-right: -4px;
 }
-.top{
-   padding-top: 44px;
+
+.top {
+    padding-top: 44px;
 }
-.bottom{
+
+.bottom {
     padding-top: 88px;
- }
-.top-left{
-    &__number{
+}
+
+.top-left {
+    &__number {
         font-family: $Montserrat-Semibold;
         color: $supernova;
         font-size: 40px;
         line-height: 1;
         margin-bottom: 22px;
     }
-    &__text{
+
+    &__text {
         font-family: $Montserrat-Semibold;
         color: $te_papa_green;
         font-size: 14px;
     }
 }
 
-.top-right{
-    &__number{
+.top-right {
+    &__number {
         font-family: $Montserrat-Semibold;
         color: $supernova;
-
         font-size: 40px;
         line-height: 1;
         margin-bottom: 22px;
     }
-    &__text{
+
+    &__text {
         font-family: $Montserrat-Semibold;
         color: $te_papa_green;
         font-size: 14px;
     }
 }
 
-.bottom-left{
-    &__number{
+.bottom-left {
+    &__number {
         font-family: $Montserrat-Semibold;
         color: $supernova;
         font-size: 40px;
         line-height: 1;
-
     }
-    &__text{
+
+    &__text {
         font-family: $Montserrat-Semibold;
         color: $te_papa_green;
         font-size: 14px;
     }
 }
 
-.bottom-right{
-    &__number{
+.bottom-right {
+    &__number {
         font-family: $Montserrat-Semibold;
         color: $supernova;
         font-size: 40px;
         line-height: 1;
-       
     }
-    &__text{
+
+    &__text {
         font-family: $Montserrat-Semibold;
         color: $te_papa_green;
         font-size: 14px;
