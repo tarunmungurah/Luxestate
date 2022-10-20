@@ -43,8 +43,6 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.10);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.10);
     margin-bottom: 62px;
-
-    //mobile   margin-bottom: 50px;
     &__address {
         color: $te_papa_green;
         font-weight: bold;
@@ -92,7 +90,29 @@
     }
 }
 
-.num{
+.fa.fa-shower {
     color: $bali_hai;
+    font-size: 13px;
+    margin-left: 121px;
+    margin-right: 12px;
+}
+
+.fa.fa-bed {
+    font-size: 13px;
+    color: $bali_hai;
+    margin-right: 12px;
+}
+
+.num1 {
+    color: $bali_hai;
+    font-weight: 400;
+    font-size: 13px;
+    margin-right: 23px;
+}
+
+.num2 {
+    font-weight: 400;
+    color: $bali_hai;
+    font-size: 13px;
     margin-right: 20px;
 }
