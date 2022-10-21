@@ -15,42 +15,49 @@
         margin-bottom: 68px;
         color: $te_papa_green;
     }
+
+    &__item {
+        width: 380px;
+    }
 }
 
 .card {
+    width: 346px;
     background-color: $white;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
 
     &__type {
+        font-family: $Montserrat-Semibold;
         color: $te_papa_green;
-        font-weight: bold;
         font-size: 15px;
-        padding: 0 0 25px 21px;
+        line-height: 1;
+        padding: 0 0 20px 21px;
     }
 
     &__name {
+        font-family: $Montserrat-Semibold;
         color: $supernova;
-        font-weight: bold;
         font-size: 15px;
-        padding: 0 0 30px 21px;
+        padding: 0 0 32px 21px;
     }
 
     .card-img-top {
-        margin-bottom: 24px;
+        margin-bottom: 34px;
+        height: 379px;
     }
 }
 
 .icon-facebook {
     color: $te_papa_green;
-    margin-left: 55px;
+    margin-left: 44px;
 }
 
 .icon-twitter {
     color: $te_papa_green;
-    margin-left: 38px;
+    margin-left: 30px;
 }
 
 .icon-dribbble {
     color: $te_papa_green;
-    margin-left: 30px;
+    margin-left: 35px;
 }
