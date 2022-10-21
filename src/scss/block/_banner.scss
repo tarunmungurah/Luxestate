@@ -48,13 +48,10 @@ a {
         }
 
         .form-control {
-            -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.20);
-            -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.20);
-            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.20);
+            box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
             font-size: 15px;
             color: $bali_hai;
             width: 100%;
-            border-radius: 10px;
             padding: 28px 0 28px 29px;
 
             @include media-breakpoint-up(lg) {
@@ -75,16 +72,15 @@ a {
     }
 }
 
-.fa.fa-phone {
+.icon-phone {
     font-size: 20px;
     color: $white;
     margin-right: 29px;
 }
 
-.fa.fa-map-marker {
+.icon-location {
     font-size: 20px;
     color: $white;
     margin-right: 29px;
     margin-left: 29px;
-
 }
