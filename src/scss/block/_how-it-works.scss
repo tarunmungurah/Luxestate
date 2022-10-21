@@ -14,6 +14,15 @@
         }
     }
 
+    &__item {
+        width: 380px;
+        :hover {
+            background-color: $supernova;
+            color: $white;
+            cursor: pointer;
+        }
+    }
+
     &__subtitle {
         font-size: 13px;
         margin-bottom: 58px;
@@ -26,69 +35,15 @@
     }
 }
 
-.how-it-works-card01 {
-    background-color: $supernova;
-    height: 372px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
-    margin-bottom: 100px;
-    padding: 150px 0 54px 0;
-
-    @include media-breakpoint-up(lg) {
-        margin: 0;
-    }
-
-    &__subtitle {
-        color: $white;
-        font-size: 13px;
-        max-width: 207px;
-        text-align: left;
-        margin-left: 110px;
-        margin-bottom: 31px;
-    }
-
-    &__find-location {
-        font-family: $Montserrat-Semibold;
-        color: $white;
-        font-size: 13px;
-        text-decoration: underline;
-        margin-left: 110px;
-    }
-    &__big-number{
-
-    font-size: 160px;
-    font-family: $Montserrat-Semibold;
-    }
-}
-
-.how-it-works-card01-title {
-    display: flex;
-
-    &__number {
-        font-family: $Montserrat-Semibold;
-        color: $white;
-        font-size: 18px;
-        margin-right: 12px;
-        margin-left: 80px;
-    }
-
-    &__text {
-        font-family: $Montserrat-Semibold;
-        color: $white;
-        font-size: 18px;
-        margin-bottom: 41px;
-    }
-}
-
-.how-it-works-card02 {
+.how-it-works-card {
     background-color: $white;
-    height: 372px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
-    margin-bottom: 100px;
-    padding: 150px 0 54px 0;
+    margin-bottom: 50px;
+    width: 346px;
+    height: 100;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+    padding: 145px 0 54px 0;
+    position: relative;
+    overflow: hidden;
 
     @include media-breakpoint-up(lg) {
         margin: 0;
@@ -97,11 +52,19 @@
     &__subtitle {
         color: $te_papa_green;
         font-size: 13px;
-        max-width: 207px;
+        max-width: 230px;
         text-align: left;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 70px;
+        margin-right: 70px;
         margin-bottom: 31px;
+    }
+
+    &__find-location {
+        font-family: $Montserrat-Semibold;
+        color: $te_papa_green;
+        font-size: 13px;
+        text-decoration: underline;
+        margin-left: 70px;
     }
 
     &__find-appartment {
@@ -109,45 +72,8 @@
         color: $te_papa_green;
         font-size: 13px;
         text-decoration: underline;
-        margin-left: 110px;
-    }
-}
+        margin-left: 70px;
 
-.how-it-works-card02-title {
-    display: flex;
-
-    &__number {
-        font-family: $Montserrat-Semibold;
-        color: $te_papa_green;
-        font-size: 18px;
-        margin-right: 12px;
-        margin-left: 80px;
-    }
-
-    &__text {
-        font-family: $Montserrat-Semibold;
-        color: $te_papa_green;
-        font-size: 18px;
-        margin-bottom: 41px;
-    }
-}
-
-.how-it-works-card03 {
-    background-color: $white;
-    height: 372px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.07);
-    padding: 150px 0 54px 0;
-
-    &__subtitle {
-        color: $te_papa_green;
-        font-size: 13px;
-        max-width: 207px;
-        text-align: left;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 31px;
     }
 
     &__make-contact {
@@ -155,19 +81,29 @@
         color: $te_papa_green;
         font-size: 13px;
         text-decoration: underline;
-        margin-left: 110px;
+        margin-left: 70px;
+
+    }
+
+    &__big-number {
+        font-size: 160px;
+        font-family: $Montserrat-Semibold;
+        position: absolute;
+        top: -100px;
+        left: -37px;
     }
 }
 
-.how-it-works-card03-title {
+.how-it-works-card-title {
     display: flex;
 
     &__number {
         font-family: $Montserrat-Semibold;
         color: $te_papa_green;
         font-size: 18px;
-        margin-right: 12px;
-        margin-left: 80px;
+        margin-right: 10px;
+        margin-left: 44px;
+
     }
 
     &__text {

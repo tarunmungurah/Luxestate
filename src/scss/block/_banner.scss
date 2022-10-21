@@ -44,12 +44,12 @@ a {
             @include media-breakpoint-up(lg) {
                 font-size: 60px;
             }
-
         }
 
-        .form-control {
+        .form-control-banner {
             box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
             font-size: 15px;
+            border-radius: 10px 0 0 10px;
             color: $bali_hai;
             width: 100%;
             padding: 28px 0 28px 29px;
