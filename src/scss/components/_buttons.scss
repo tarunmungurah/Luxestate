@@ -50,10 +50,9 @@
     font-weight: bold;
     border-radius: 0;
     background-color: $supernova;
-    padding: 34px 57px;
+    padding: 25px 30px;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: -31px;
 }
 
 .btn-melbourne2 {
@@ -61,10 +60,13 @@
     font-weight: bold;
     border-radius: 0;
     background-color: $supernova;
-    padding: 34px 57px;
+    padding: 25px 30px;
     position: absolute;
-    bottom: 0;
+    bottom: -20px;
     right: 0;
+    @include media-breakpoint-up(lg) {
+        right: -43px;
+    }
 }
 
 .btn-call {
