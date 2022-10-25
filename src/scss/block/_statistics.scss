@@ -60,14 +60,14 @@
 .top {
     padding: 0;
     @include media-breakpoint-up(lg) {
-        padding: 45px 180px 0 0;
+        padding: 47px 0 0 80px;
     }
 }
 
 .bottom {
     padding-top: 50px;
     @include media-breakpoint-up(lg) {
-    padding: 105px 180px 0 0;
+        padding: 105px 0 0 80px;
     }
 }
 
