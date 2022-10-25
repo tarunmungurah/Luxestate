@@ -15,7 +15,6 @@
     }
 
     &__item {
-       width: 380px;
         :hover {
             background-color: $supernova;
             color: $white;
@@ -36,11 +35,17 @@
 }
 
 .how-it-works-card {
+    :hover {
+        background-color: $supernova;
+        color: $white;
+        cursor: pointer;
+    }
+
     background-color: $white;
     margin-bottom: 50px;
-   width: 346px;
+    width: 346px;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
-    padding: 145px 0 54px 0;
+    padding: 140px 0 45px 0;
     position: relative;
     overflow: hidden;
 
@@ -55,7 +60,7 @@
         text-align: left;
         margin-left: 70px;
         margin-right: 70px;
-        margin-bottom: 31px;
+        margin-bottom: 20px;
     }
 
     &__find-location {
@@ -109,4 +114,3 @@
         margin-bottom: 41px;
     }
 }
-
