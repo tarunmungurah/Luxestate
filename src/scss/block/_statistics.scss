@@ -58,11 +58,17 @@
 }
 
 .top {
-    padding-top: 45px;
+    padding: 0;
+    @include media-breakpoint-up(lg) {
+        padding: 45px 180px 0 0;
+    }
 }
 
 .bottom {
-    padding-top: 88px;
+    padding-top: 50px;
+    @include media-breakpoint-up(lg) {
+    padding: 105px 180px 0 0;
+    }
 }
 
 .top-left {
