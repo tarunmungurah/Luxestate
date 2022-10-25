@@ -35,60 +35,18 @@
         max-width: 140px;
     }
 
-    &__title-luxstate {
+    &__title {
         color: $bali_hai;
         font-size: 13px;
         text-transform: uppercase;
         margin-left: 0;
         padding-top: 70px;
         margin-bottom: 30px;
-        @include media-breakpoint-up(lg) {
-            margin-left: 45px;
-        }
+      
     }
 
-    &__title-company {
-        color: $bali_hai;
-        font-size: 13px;
-        margin-bottom: 30px;
-        text-transform: uppercase;
-        margin-left: 0;
-        padding-top: 70px;
-        @include media-breakpoint-up(lg) {
-            margin-left: 20px;
-        }
-    }
 
-    &__title-product {
-        color: $bali_hai;
-        font-size: 13px;
-        margin-bottom: 30px;
-        text-transform: uppercase;
-        padding-top: 70px;
-    }
-
-    &__title-services {
-        color: $bali_hai;
-        font-size: 13px;
-        margin-bottom: 30px;
-        text-transform: uppercase;
-        padding-top: 70px;
-    }
-
-    &__list1 {
-        padding-left: 0;
-        @include media-breakpoint-up(lg) {
-            padding-left: 50px;
-        }
-    }
-
-    &__list2 {
-        padding-left: 0;
-        @include media-breakpoint-up(lg) {
-            padding-left: 20px;
-        }
-    }
-
+    
 }
 
 
