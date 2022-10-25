@@ -1,22 +1,32 @@
 .footers {
     background: $te_papa_green;
-    padding: 72px 0 88px 0;
+    padding: 72px 0 60px 0;
 
     &__explore {
+        font-family: $Montserrat-Semibold;
+        max-width: 356px;
         line-height: 1;
         font-size: 40px;
-        font-weight: bold;
         margin-bottom: 59px;
         color: $white;
     }
 
+    .form-control-footer {
+        font-size: 15px;
+        color: $bali_hai;
+        width: 100%;
+        padding: 28px 0 28px 20px;
+        @include media-breakpoint-up(lg) {
+            width: 476px;
+        }
+    }
+
     &__logo {
-        // width: 137px;
-        // height: 43px;
+        font-family: $Montserrat-Semibold;
         color: $white;
         font-size: 25px;
-        font-weight: bold;
-        margin-bottom: 70px;
+        margin-bottom: 55px;
+        padding-top: 63px;
     }
 
     &__info {
@@ -24,40 +34,66 @@
         font-size: 14px;
     }
 
-    &__title {
+    &__title-luxstate {
         color: $bali_hai;
         font-size: 13px;
-        margin-bottom: 45px;
         text-transform: uppercase;
-    }
-
-    &__contact {
-        color: $white;
-        font-size: 24px;
+        margin-left: 0;
+        padding-top: 70px;
         margin-bottom: 30px;
+        @include media-breakpoint-up(lg) {
+            margin-left: 45px;
+        }
     }
 
-    &__address {
-        //  color: $corduroy;
-        font-size: 14px;
-        margin-bottom: 38px;
+    &__title-company {
+        color: $bali_hai;
+        font-size: 13px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        margin-left: 0;
+        padding-top: 70px;
+        @include media-breakpoint-up(lg) {
+            margin-left: 20px;
+        }
     }
 
-    &__number {
-        //   color: $corduroy;
-        font-size: 14px;
+    &__title-product {
+        color: $bali_hai;
+        font-size: 13px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        padding-top: 70px;
     }
 
-    &__email {
-        color: $blue;
-        font-size: 14px;
+    &__title-services {
+        color: $bali_hai;
+        font-size: 13px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        padding-top: 70px;
     }
+
+    &__list1 {
+        padding-left: 0;
+        @include media-breakpoint-up(lg) {
+            padding-left: 50px;
+        }
+    }
+
+    &__list2 {
+        padding-left: 0;
+        @include media-breakpoint-up(lg) {
+            padding-left: 20px;
+        }
+    }
+
 }
 
 
 .footers {
     li {
-        margin-bottom: 26px;
+        margin-bottom: 18px;
 
         a {
             color: $white;
@@ -65,12 +101,4 @@
             text-decoration: none;
         }
     }
-}
-
-.form-control-footer {
-    font-size: 15px;
-    color: $bali_hai;
-    width: 100%;
-    border-radius: 10px;
-    padding: 28px 0 28px 20px;
 }

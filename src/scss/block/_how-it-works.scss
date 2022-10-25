@@ -15,7 +15,7 @@
     }
 
     &__item {
-        width: 380px;
+       width: 380px;
         :hover {
             background-color: $supernova;
             color: $white;
@@ -38,7 +38,7 @@
 .how-it-works-card {
     background-color: $white;
     margin-bottom: 50px;
-    width: 346px;
+   width: 346px;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
     padding: 145px 0 54px 0;
     position: relative;
@@ -72,7 +72,6 @@
         font-size: 13px;
         text-decoration: underline;
         margin-left: 70px;
-
     }
 
     &__make-contact {
@@ -81,7 +80,6 @@
         font-size: 13px;
         text-decoration: underline;
         margin-left: 70px;
-
     }
 
     &__big-number {
@@ -102,7 +100,6 @@
         font-size: 18px;
         margin-right: 10px;
         margin-left: 44px;
-
     }
 
     &__text {
@@ -112,3 +109,4 @@
         margin-bottom: 41px;
     }
 }
+
