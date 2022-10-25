@@ -13,12 +13,21 @@
 .btn-search {
     font-weight: bold;
     background-color: $supernova;
-    padding: 10px 30px;
+    padding: 29px 30px;
     border-radius: 0px 10px 10px 0;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn-search-appartments {
+    font-weight: bold;
+    background-color: $supernova;
+    padding: 29px 30px;
+    border-radius: 0px 10px 10px 0;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 35px;
 
     @include media-breakpoint-up(lg) {
-        padding: 29px 30px;
+        margin: 0;
     }
 }
 
@@ -42,11 +51,9 @@
     border-radius: 0;
     background-color: $supernova;
     padding: 34px 57px;
-
     position: absolute;
     bottom: 0;
     left: 0;
-  
 }
 
 .btn-melbourne2 {
@@ -58,7 +65,6 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    
 }
 
 .btn-call {
@@ -70,9 +76,8 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    
+
     @include media-breakpoint-up(lg) {
         padding: 34px 57px;
     }
 }
-
