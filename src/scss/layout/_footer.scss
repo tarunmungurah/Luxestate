@@ -16,6 +16,7 @@
         color: $bali_hai;
         width: 100%;
         padding: 28px 0 28px 20px;
+
         @include media-breakpoint-up(lg) {
             width: 476px;
         }
@@ -41,16 +42,19 @@
         text-transform: uppercase;
         margin-left: 0;
         padding-top: 70px;
-        margin-bottom: 30px; 
+        margin-bottom: 30px;
     }
 
-    .form-item{
+    .form-item {
         position: relative;
-        margin: 0;
+        margin-left: 0;
+        margin-bottom: 50px;
+
         @include media-breakpoint-up(lg) {
             margin-left: 65px;
+            margin-bottom: 0;
         }
-        
+
     }
 
     .icon-arrow-right2 {
@@ -60,7 +64,7 @@
         color: $red;
         font-size: 35px;
     }
-    
+
 }
 
 
@@ -74,4 +78,8 @@
             text-decoration: none;
         }
     }
+}
+
+.footers-line {
+    color: $white;
 }
