@@ -41,11 +41,25 @@
         text-transform: uppercase;
         margin-left: 0;
         padding-top: 70px;
-        margin-bottom: 30px;
-      
+        margin-bottom: 30px; 
     }
 
+    .form-item{
+        position: relative;
+        margin: 0;
+        @include media-breakpoint-up(lg) {
+            margin-left: 65px;
+        }
+        
+    }
 
+    .icon-arrow-right2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: $red;
+        font-size: 35px;
+    }
     
 }
 
