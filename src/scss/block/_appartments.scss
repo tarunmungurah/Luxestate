@@ -76,3 +76,15 @@
         height: 71px;
     }
 }
+
+.form-item{
+    position: relative;
+}
+
+.icon-search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: $bali_hai;
+    font-size: 20px;
+}
