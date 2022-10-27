@@ -48,14 +48,10 @@ header {
             text-decoration: none;
             align-items: center;
             color: $te_papa_green;
-            margin-right: 4px;
-            margin-left: 4px;
             padding: 10px 15px;
             border-radius: 10px;
 
-            .leftspace & {
-                margin-left: 100px;
-            }
+         
         }
     }
 
@@ -82,7 +78,7 @@ header {
     margin: 0;
 
     @include media-breakpoint-up(lg) {
-        margin-left: 100px;
+        margin-left: 110px;
     }
 }
 

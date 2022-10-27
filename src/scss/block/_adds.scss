@@ -25,11 +25,12 @@
     }
 
     &__title {
+        font-family: $Montserrat-Semibold;
         line-height: 1;
         font-size: 25px;
         margin-bottom: 43px;
         color: $te_papa_green;
-        font-weight: bold;
+        
     }
 
     &__subtitle {
@@ -49,11 +50,11 @@
     }
 
     &__title {
+        font-family: $Montserrat-Semibold;
         line-height: 1;
         font-size: 25px;
         margin-bottom: 43px;
         color: $te_papa_green;
-        font-weight: bold;
     }
 
     &__subtitle {
@@ -68,15 +69,15 @@
     padding: 0;
 
     @include media-breakpoint-up(lg) {
-        padding: 83px 0 0 124px;
+        padding: 30px 0 0 124px;
     }
 
     &__title {
+        font-family: $Montserrat-Semibold;
         line-height: 1;
         font-size: 25px;
         margin-bottom: 43px;
         color: $te_papa_green;
-        font-weight: bold;
     }
 
     &__subtitle {

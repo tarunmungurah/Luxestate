@@ -1,5 +1,8 @@
 .services {
-    padding: 100px 0 71px 0;
+    padding-top: 50px;
+    @include media-breakpoint-up(lg) {
+        padding-top: 100px;
+    }
 
     picture {
         margin-bottom: 70px;
@@ -10,10 +13,10 @@
     }
 
     &__title {
+        font-family: $Montserrat-Semibold;
         font-size: 40px;
         margin-bottom: 38px;
         color: $te_papa_green;
-        font-weight: bold;
         line-height: 1;
     }
 
@@ -28,7 +31,7 @@
         margin: 0;
 
         @include media-breakpoint-up(lg) {
-            margin-left: 125px;
+            margin-left: 115px;
         }
     }
 }

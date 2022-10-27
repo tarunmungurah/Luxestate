@@ -40,9 +40,11 @@ a {
             font-size: 35px;
             color: $te_papa_green;
             margin-bottom: 60px;
+            padding-top: 50px;
 
             @include media-breakpoint-up(lg) {
                 font-size: 60px;
+                padding: 0;
             }
         }
 
