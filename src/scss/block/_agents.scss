@@ -1,5 +1,10 @@
 .agents {
-    padding: 70px 0 96px 0;
+    padding-top: 70px;
+
+    width: 100%;
+    @include media-breakpoint-up(lg) {
+          padding: 70px 0 96px 0;
+    }
     background-color: $desert_storm;
 
     &__title {
@@ -19,9 +24,12 @@
 }
 
 .card {
-    width: 346px;
     background-color: $white;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    @include media-breakpoint-up(lg) {
+        width: 346px;
+    }
 
 
     &__type {
