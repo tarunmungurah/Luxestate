@@ -64,22 +64,21 @@
     position: absolute;
     bottom: -20px;
     right: 0;
+
     @include media-breakpoint-up(lg) {
         right: -43px;
     }
 }
 
-.btn-call {
+.btn-banner {
+    font-family: $Montserrat-Semibold;
     font-size: 18px;
-    font-weight: bold;
     border-radius: 0;
     background-color: $supernova;
-    padding: 0;
+    padding: 34px 57px;
+
     position: absolute;
     bottom: 0;
-    right: 0;
 
-    @include media-breakpoint-up(lg) {
-        padding: 34px 57px;
-    }
+    
 }
