@@ -58,18 +58,24 @@
 
     .icon-arrow-right2 {
         position: absolute;
-        top: 0;
-        right: 0;
-        color: $red;
+        top: 24%;
+        right: 8%;
+        color: $te_papa_green;
         font-size: 35px;
     }
 }
 
 .footers {
+
     li {
         margin-bottom: 18px;
 
         a {
+            &:hover,
+            &:focus {
+                color: $supernova;
+                cursor: pointer;
+            }
             color: $white;
             font-size: 13px;
             text-decoration: none;

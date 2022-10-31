@@ -14,8 +14,6 @@
         }
     }
 
-
-
     &__subtitle {
         font-size: 13px;
         margin-bottom: 58px;
@@ -29,7 +27,9 @@
 }
 
 .how-it-works-card {
-    &:hover, &:focus {
+
+    &:hover,
+    &:focus {
         background-color: $supernova;
         color: $white;
         cursor: pointer;
@@ -42,6 +42,7 @@
     position: relative;
     overflow: hidden;
     width: 100%;
+
     @include media-breakpoint-up(lg) {
         width: 346px;
     }
@@ -51,7 +52,6 @@
     }
 
     &__subtitle {
-       
         font-size: 13px;
         max-width: 230px;
         text-align: left;
@@ -62,7 +62,6 @@
 
     &__find-location {
         font-family: $Montserrat-Semibold;
-
         font-size: 13px;
         text-decoration: underline;
         margin-left: 70px;
@@ -70,7 +69,6 @@
 
     &__find-appartment {
         font-family: $Montserrat-Semibold;
-      
         font-size: 13px;
         text-decoration: underline;
         margin-left: 70px;

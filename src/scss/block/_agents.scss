@@ -2,9 +2,11 @@
     padding-top: 70px;
 
     width: 100%;
+
     @include media-breakpoint-up(lg) {
-          padding: 70px 0 96px 0;
+        padding: 70px 0 96px 0;
     }
+
     background-color: $desert_storm;
 
     &__title {
@@ -27,6 +29,7 @@
     background-color: $white;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
     width: 100%;
+
     @include media-breakpoint-up(lg) {
         width: 346px;
     }
@@ -50,20 +53,38 @@
     .card-img-top {
         margin-bottom: 34px;
         height: 379px;
+        width: 100%;
+        object-fit: cover;
     }
 }
 
 .icon-facebook {
+    
+    &:hover,
+    &:focus {
+        color: $supernova;
+        cursor: pointer;
+    }
     color: $te_papa_green;
     margin-left: 44px;
 }
 
 .icon-twitter {
+    &:hover,
+    &:focus {
+        color: $supernova;
+        cursor: pointer;
+    }
     color: $te_papa_green;
     margin-left: 30px;
 }
 
 .icon-dribbble {
+    &:hover,
+    &:focus {
+        color: $supernova;
+        cursor: pointer;
+    }
     color: $te_papa_green;
     margin-left: 35px;
 }

@@ -14,7 +14,6 @@ a {
         position: absolute;
         right: 0;
         bottom: 0;
-        
     }
 
     &__contents {
@@ -51,7 +50,6 @@ a {
             min-width: 100%;
             min-height: 100%;
             object-fit: cover;
-            
         }
     }
 
@@ -106,6 +104,11 @@ a {
 }
 
 .num {
+    &:hover,
+    &:focus {
+        color: $white;
+        
+    }
     font-family: $Montserrat-Semibold;
     font-size: 18px;
     color: $te_papa_green;
@@ -122,6 +125,11 @@ a {
 }
 
 .locat {
+    &:hover,
+    &:focus {
+        color: $white;
+        
+    }
     font-family: $Montserrat-Semibold;
     font-size: 18px;
     color: $te_papa_green;
@@ -129,6 +137,10 @@ a {
 }
 
 .banner-buttons {
+
+ 
+
+
     position: absolute;
     bottom: 0;
     right: 0;
