@@ -104,11 +104,12 @@ a {
 }
 
 .num {
+
     &:hover,
     &:focus {
         color: $white;
-        
     }
+
     font-family: $Montserrat-Semibold;
     font-size: 18px;
     color: $te_papa_green;
@@ -125,11 +126,12 @@ a {
 }
 
 .locat {
+
     &:hover,
     &:focus {
         color: $white;
-        
     }
+
     font-family: $Montserrat-Semibold;
     font-size: 18px;
     color: $te_papa_green;
@@ -137,10 +139,6 @@ a {
 }
 
 .banner-buttons {
-
- 
-
-
     position: absolute;
     bottom: 0;
     right: 0;
