@@ -14,13 +14,7 @@
         }
     }
 
-    &__item {
-        :hover {
-            background-color: $supernova;
-            color: $white;
-            cursor: pointer;
-        }
-    }
+
 
     &__subtitle {
         font-size: 13px;
@@ -35,7 +29,7 @@
 }
 
 .how-it-works-card {
-    :hover {
+    &:hover, &:focus {
         background-color: $supernova;
         color: $white;
         cursor: pointer;
@@ -57,7 +51,7 @@
     }
 
     &__subtitle {
-        color: $te_papa_green;
+       
         font-size: 13px;
         max-width: 230px;
         text-align: left;
@@ -68,7 +62,7 @@
 
     &__find-location {
         font-family: $Montserrat-Semibold;
-        color: $te_papa_green;
+
         font-size: 13px;
         text-decoration: underline;
         margin-left: 70px;
@@ -76,7 +70,7 @@
 
     &__find-appartment {
         font-family: $Montserrat-Semibold;
-        color: $te_papa_green;
+      
         font-size: 13px;
         text-decoration: underline;
         margin-left: 70px;
@@ -84,7 +78,6 @@
 
     &__make-contact {
         font-family: $Montserrat-Semibold;
-        color: $te_papa_green;
         font-size: 13px;
         text-decoration: underline;
         margin-left: 70px;
@@ -104,7 +97,6 @@
 
     &__number {
         font-family: $Montserrat-Semibold;
-        color: $te_papa_green;
         font-size: 18px;
         margin-right: 10px;
         margin-left: 44px;
@@ -112,7 +104,6 @@
 
     &__text {
         font-family: $Montserrat-Semibold;
-        color: $te_papa_green;
         font-size: 18px;
         margin-bottom: 41px;
     }
