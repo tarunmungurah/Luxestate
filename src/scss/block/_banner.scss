@@ -9,7 +9,7 @@ a {
     overflow: hidden;
 
     &__img {
-        width: 70%;
+        width: 80%;
         height: 100%;
         position: absolute;
         right: 0;
@@ -18,9 +18,16 @@ a {
 
     &__contents {
         height: calc(100vh - 123px);
-        margin-top: 123px;
+        margin: 0;
         position: relative;
         z-index: 1;
+
+        
+        @include media-breakpoint-up(lg) {
+            margin-top: 123px;
+        }
+
+        
     }
 
     &__container {
@@ -34,7 +41,6 @@ a {
         position: relative;
         z-index: 1;
     }
-
 
     picture {
         position: absolute;
@@ -64,11 +70,9 @@ a {
             font-size: 35px;
             color: $te_papa_green;
             margin-bottom: 60px;
-            padding-top: 50px;
 
             @include media-breakpoint-up(lg) {
                 font-size: 60px;
-                padding: 0;
             }
         }
 
@@ -78,7 +82,7 @@ a {
             border-radius: 10px 0 0 10px;
             color: $bali_hai;
             width: 100%;
-            padding: 28px 0 28px 29px;
+            padding: 28px 0 28px 55px;
 
             @include media-breakpoint-up(lg) {
                 width: 372px;
@@ -88,20 +92,28 @@ a {
 
         &__form-item {
             position: relative;
+            display: flex;
+            margin: 0;
+            @include media-breakpoint-up(lg) {
+                margin-bottom: 120px;
+            }
         }
 
-        &__scroll {
-            font-size: 12px;
-            font-weight: $Montserrat-Medium;
-            color: $bali_hai;
-        }
     }
 }
 
 .icon-phone {
     font-size: 20px;
     color: $white;
-    margin-right: 29px;
+}
+
+.num {
+    font-family: $Montserrat-Semibold;
+    font-size: 18px;
+    color: $te_papa_green;
+    margin-left: 30px;
+    margin-right: 50px;
+    cursor: pointer;
 }
 
 .icon-location {
@@ -111,8 +123,42 @@ a {
     margin-left: 29px;
 }
 
+.locat {
+    font-family: $Montserrat-Semibold;
+    font-size: 18px;
+    color: $te_papa_green;
+    cursor: pointer;
+}
+
 .banner-buttons {
     position: absolute;
     bottom: 0;
     right: 0;
+    background-color: $supernova;
+    padding: 28px 45px;
+}
+
+.icon-search {
+    position: absolute;
+    top: 38%;
+    left: 0;
+    color: #919eb1;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.banner-scrolling {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    &__text {
+        font-size: 12px;
+        font-weight: $Montserrat-Medium;
+        color: $bali_hai;
+    }
+
+    .fa-long-arrow-left {
+        margin-right: 20px;
+    }
 }
