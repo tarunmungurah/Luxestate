@@ -22,12 +22,9 @@ a {
         position: relative;
         z-index: 1;
 
-        
         @include media-breakpoint-up(lg) {
             margin-top: 123px;
         }
-
-        
     }
 
     &__container {
@@ -94,11 +91,11 @@ a {
             position: relative;
             display: flex;
             margin: 0;
+
             @include media-breakpoint-up(lg) {
                 margin-bottom: 120px;
             }
         }
-
     }
 }
 
@@ -151,6 +148,9 @@ a {
     position: absolute;
     bottom: 0;
     left: 0;
+    transform: rotate(270deg);
+    margin-bottom:45px;
+
 
     &__text {
         font-size: 12px;
@@ -159,6 +159,6 @@ a {
     }
 
     .fa-long-arrow-left {
-        margin-right: 20px;
+        margin-right: 30px;
     }
 }
